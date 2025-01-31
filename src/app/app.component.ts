@@ -2,7 +2,7 @@ import { FormBuilder, FormControl, FormGroup, FormsModule, Validators } from '@a
 import { Component } from '@angular/core';
 
 import Swal from 'sweetalert2'
-import { UserServiceService } from './service/user-service.service';
+import { UserServiceService } from './services/userService.service';
 import { User } from './model/user.interfaz';
 
 @Component({
